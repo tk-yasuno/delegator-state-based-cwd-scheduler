@@ -1,0 +1,54 @@
+{
+  "test_info": {
+    "version": "v5.2.1 Ultra Scale",
+    "test_date": "2025-07-25 04:56:46",
+    "target_equipment": 1331,
+    "target_parks": 241,
+    "system_info": {
+      "cpu_cores": 16,
+      "memory_total_gb": 63.18,
+      "memory_available_gb": 31.55,
+      "memory_used_percent": 50.1
+    }
+  },
+  "ultra_scale_tests": {
+    "1331_equipment": {
+      "actual_equipment_count": 853,
+      "actual_task_count": 853,
+      "init_time": 0.0,
+      "load_time": 2.3867,
+      "solve_time": 0.0069,
+      "total_time": 2.3936,
+      "init_memory_usage_mb": -0.32,
+      "load_memory_usage_mb": 3.65,
+      "solve_memory_usage_mb": 0.87,
+      "total_memory_usage_mb": 4.2,
+      "success": true,
+      "scheduled_ratio": 1.0,
+      "total_cost": 136735043,
+      "total_penalty": 24592514.175000004,
+      "equipment_per_second": 123592.00331629129,
+      "tasks_per_second": 123592.00331629129
+    }
+  },
+  "memory_analysis": {
+    "memory_per_equipment_kb": 5.036342321219227,
+    "memory_per_task_kb": 5.036342321219227,
+    "memory_utilization_percent": 0.006484926109278613,
+    "peak_memory_mb": 3.65234375,
+    "memory_efficiency_ratio": 0.004918303048065651
+  },
+  "performance_breakdown": {
+    "init_percentage": 0.0,
+    "load_percentage": 99.71165633355508,
+    "solve_percentage": 0.2883436664449073,
+    "bottleneck": "load"
+  },
+  "scalability_analysis": {
+    "100_equipment": {
+      "equipment_ratio": 8.53,
+      "time_efficiency": 87.75032235456679,
+      "linear_scaling": true
+    }
+  }
+}
