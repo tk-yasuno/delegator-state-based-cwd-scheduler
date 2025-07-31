@@ -1,0 +1,17 @@
+# 都市公園遊具安全管理CWDシステム - 必要パッケージ
+# v5.2.0: 状態監視型メンテナンス計画システム対応
+streamlit>=1.28.0
+pydantic>=2.0.0
+pyomo>=6.6.0
+pandas>=2.0.0
+numpy>=1.24.0
+plotly>=5.15.0
+scipy>=1.11.0
+pulp>=2.7.0
+dataclasses-json>=0.6.0
+typing-extensions>=4.7.0
+
+# v5.2.0 追加依存関係
+joblib>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
