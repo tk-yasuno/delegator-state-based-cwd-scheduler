@@ -65,12 +65,8 @@ delegator-state-based-cwd-scheduler/
 ├── data/
 │   └── inspectionList_sample.csv
 ├── src/
-│   ├── scheduler.py
 │   ├── degradation_model.py
-│   ├── utils.py
 │   └── streamlit_app.py
-├── docs/
-│   └── model_diagram.png
 ├── LICENSE
 └── .gitignore
 ```
